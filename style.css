@@ -69,33 +69,24 @@ hr{
   font-weight: 900;
 }
 
-/* Jobs section */
-.jobs-section {
-  margin-top: 18px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 18px;
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
-}
-
 .jobs-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: .75rem;
 }
 
 .section-title {
   margin: 0;
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 1.17rem;
+  font-weight: 700;
+  color: #002C5C;
 }
 
 .jobs-count {
   margin: 0;
-  font-size: 13px;
-  color: var(--muted);
+  font-size: 1rem;
+  color: #64748b;
   font-weight: 600;
 }
 
