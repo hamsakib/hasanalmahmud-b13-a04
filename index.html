@@ -36,7 +36,23 @@
                 <p class="dash-number" id="rejectedCount">0</p>
             </div>
         </section>
-</header>
-    
+    </header>
+
+    <main class="container">
+        <section class="jobs-section">
+            <div class="jobs-header">
+                <h2 class="section-title">Available Jobs</h2>
+                <p class="jobs-count"><span id="tabCount">0</span> jobs</p>
+            </div>
+
+            <div class="tabs" id="tabs">
+                <button class="tab active" data-tab="all" type="button">All</button>
+                <button class="tab" data-tab="interview" type="button">Interview</button>
+                <button class="tab" data-tab="rejected" type="button">Rejected</button>
+            </div>
+
+            <div id="jobsContainer" class="jobs-container"></div>
+        </section>
+    </main>
 </body>
 </html>
