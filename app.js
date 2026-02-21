@@ -151,15 +151,6 @@ const jobsContainer = document.getElementById("jobsContainer");
 
 function createJobCard(job) {
   let statusLabel = "";
-
-  if (job.status === "interview") {
-    statusLabel = `<span class="status status-interview">Interview</span>`;
-  }
-
-  if (job.status === "rejected") {
-    statusLabel = `<span class="status status-rejected">Rejected</span>`;
-  }
-
   return `
     <article class="job-card" data-id="${job.id}">
       <div class="job-top">
