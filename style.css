@@ -69,6 +69,11 @@ hr{
   font-weight: 900;
 }
 
+.jobs-section{
+    display: grid;
+    gap: 1.5rem;
+}
+
 .jobs-header {
   display: flex;
   align-items: center;
@@ -90,13 +95,9 @@ hr{
   font-weight: 600;
 }
 
-/* Tabs */
 .tabs {
   display: flex;
-  gap: 10px;
-  margin-top: 14px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--border);
+  gap: .5rem;
 }
 
 .tab {
