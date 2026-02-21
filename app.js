@@ -1,0 +1,145 @@
+const jobs = [
+  {
+    id: "job-1",
+    companyName: "Mobile First Corp",
+    position: "React Native Developer",
+    location: "Remote",
+    type: "Full-time",
+    salary: "$130,000 - $175,000",
+    description:
+      "Build and maintain cross-platform mobile features, collaborate with design, and ship weekly improvements.",
+    status: "none",
+  },
+  {
+    id: "job-2",
+    companyName: "DataDock Analytics",
+    position: "Junior Data Analyst",
+    location: "Dhaka",
+    type: "On-site",
+    salary: "৳55,000 - ৳75,000",
+    description:
+      "Clean sales data, build weekly dashboards, and explain insights to non-technical stakeholders.",
+    status: "none",
+  },
+  {
+    id: "job-3",
+    companyName: "CloudNest Systems",
+    position: "Backend Intern (Node.js)",
+    location: "Hybrid",
+    type: "Internship",
+    salary: "$600/month",
+    description:
+      "Assist in building REST APIs, write unit tests, and learn production deployment basics with guidance.",
+    status: "none",
+  },
+  {
+    id: "job-4",
+    companyName: "NorthStar Studios",
+    position: "UI Designer",
+    location: "Remote",
+    type: "Contract",
+    salary: "$25/hr",
+    description:
+      "Design clean UI screens, create reusable components, and deliver developer-friendly Figma files.",
+    status: "none",
+  },
+  {
+    id: "job-5",
+    companyName: "RetailOps BD",
+    position: "Product Support Executive",
+    location: "Mymensingh",
+    type: "On-site",
+    salary: "৳30,000 - ৳45,000",
+    description:
+      "Handle customer issues, document common bugs, and coordinate fixes with engineering and product teams.",
+    status: "none",
+  },
+  {
+    id: "job-6",
+    companyName: "FinPulse",
+    position: "QA Tester (Manual)",
+    location: "Remote",
+    type: "Part-time",
+    salary: "$800/month",
+    description:
+      "Test web app flows, write clear bug reports with screenshots, and verify fixes across browsers.",
+    status: "none",
+  },
+  {
+    id: "job-7",
+    companyName: "MarTech Loop",
+    position: "Growth Marketing Assistant",
+    location: "Hybrid",
+    type: "Full-time",
+    salary: "৳60,000 - ৳90,000",
+    description:
+      "Support campaign setup, track weekly KPIs, and help write landing page copy that improves conversion.",
+    status: "none",
+  },
+  {
+    id: "job-8",
+    companyName: "DevBridge",
+    position: "Frontend Developer (HTML/CSS/JS)",
+    location: "Remote",
+    type: "Full-time",
+    salary: "$70,000 - $95,000",
+    description:
+      "Build responsive pages from Figma, create interactive UI with vanilla JavaScript, and improve performance.",
+    status: "none",
+  },
+  {
+  id: "job-9",
+  companyName: "ShopNext BD",
+  position: "E-commerce Operations Executive",
+  location: "Dhaka",
+  type: "On-site",
+  salary: "৳40,000 - ৳60,000",
+  description:
+    "Manage daily e-commerce operations, update product listings, coordinate with delivery partners, and support campaign launches.",
+  status: "none",
+},
+{
+  id: "job-10",
+  companyName: "CodeSprint Labs",
+  position: "Frontend Intern (JavaScript)",
+  location: "Remote",
+  type: "Internship",
+  salary: "$500/month",
+  description:
+    "Work with senior developers to build UI components, fix bugs, and learn real-world frontend development practices.",
+  status: "none",
+},
+{
+  id: "job-11",
+  companyName: "HealthTrack Systems",
+  position: "IT Support Officer",
+  location: "Dhaka",
+  type: "On-site",
+  salary: "৳35,000 - ৳50,000",
+  description:
+    "Provide technical support to staff, maintain internal systems, troubleshoot hardware issues, and document solutions.",
+  status: "none",
+},
+{
+  id: "job-12",
+  companyName: "BrandOrbit",
+  position: "Social Media Content Coordinator",
+  location: "Hybrid",
+  type: "Full-time",
+  salary: "৳45,000 - ৳70,000",
+  description:
+    "Plan content calendars, coordinate with designers, publish posts, and analyze engagement metrics across platforms.",
+  status: "none",
+},
+{
+  id: "job-13",
+  companyName: "DataHive Solutions",
+  position: "Business Intelligence Analyst",
+  location: "Remote",
+  type: "Full-time",
+  salary: "$1,200 - $1,600",
+  description:
+    "Analyze business data, create dashboards, and provide actionable insights to improve operational decisions.",
+  status: "none",
+},
+];
