@@ -6,12 +6,13 @@
 body {
   background: #F8FAFC;
   margin: 0;
+  padding: 1.875rem 0;
 }
 
 .container {
   max-width: 69.375rem;
   margin: 0 auto;
-  padding: 3.75rem;
+  padding: 1.875rem;
 }
 
 .title {
@@ -29,7 +30,6 @@ body {
 }
 
 .dash-card {
-  background: ;
   border: 1px solid #f1f2f4;
   border-radius: .5rem;
   padding: 1.25rem;
