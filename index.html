@@ -9,12 +9,34 @@
     <!-- JS -->
     <script defer src="./app.js"></script>
     <!-- Font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 
 </head>
+
+
 <body>
+    <header class="container">
+        <h1 class="title">Job Application Tracker</h1>
+
+        <section class="dashboard">
+            <div class="dash-card">
+                <p class="dash-label">Total</p>
+                <p class="dash-number" id="totalCount">0</p>
+            </div>
+
+            <div class="dash-card">
+                <p class="dash-label">Interview</p>
+                <p class="dash-number" id="interviewCount">0</p>
+            </div>
+
+            <div class="dash-card">
+                <p class="dash-label">Rejected</p>
+                <p class="dash-number" id="rejectedCount">0</p>
+            </div>
+        </section>
+</header>
     
 </body>
 </html>
