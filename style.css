@@ -110,6 +110,7 @@ hr{
   color: #64748B;
   transition: 0.15s ease;
   border: 0;
+  background-color: white;
 }
 
 .tab:hover {
