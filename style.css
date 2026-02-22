@@ -123,11 +123,9 @@ hr{
 
 
 .jobs-container {
-  margin-top: 16px;
   min-height: 260px;
 }
 
-/* Empty state */
 .empty-state {
   height: 260px;
   border: 1px dashed var(--border);
@@ -165,10 +163,9 @@ hr{
 /* Job Cards */
 .job-card {
   background: #ffffff;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 16px;
-  margin-bottom: 14px;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
   box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
 }
 
@@ -181,35 +178,38 @@ hr{
 
 .job-company {
   margin: 0;
-  font-size: 16px;
-  font-weight: 900;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #002C5C;
 }
 
 .job-position {
-  margin: 4px 0 0;
-  font-size: 13px;
-  font-weight: 700;
+  margin: .25rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color:#64748B;
 }
 
 .job-meta {
-  margin: 6px 0 0;
-  font-size: 12px;
-  color: var(--muted);
-  font-weight: 600;
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: .875rem;
+  color:#64748B;
 }
 
 .job-status {
-  margin: 6px 0 0;
-  font-size: 12px;
-  font-weight: 800;
+  margin: .25rem 0;
+  font-size: .875rem;
+  font-weight: 500;
   display: inline-block;
-  padding: 4px 10px;
-  border-radius: 999px;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+  color: #002C5C;
 }
 
 .status-none {
-  background: #e5e7eb;
-  color: #374151;
+  background: white;
+  color: #002C5C;
 }
 
 .status-interview {
