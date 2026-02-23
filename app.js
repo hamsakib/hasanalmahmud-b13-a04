@@ -235,7 +235,7 @@ function renderJobs() {
   }
 
 
-  if (filteredJobs.length === 0 && activeTab !== "all") {
+  if (filteredJobs.length === 0) {
     jobsContainer.innerHTML = `
       <div class="empty-state">
         <div class="empty-icon"><img src="./assets/jobs.png" alt=""></div>

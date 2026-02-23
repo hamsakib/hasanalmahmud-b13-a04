@@ -274,7 +274,7 @@ hr{
   background: #fee2e2;
 }
 
-/* Responsive */
+
 @media (max-width: 640px) {
   .dashboard {
     grid-template-columns: 1fr;
