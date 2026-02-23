@@ -50,20 +50,20 @@ hr{
 }
 
 .dash-number{
-  margin: 10px 0 0;
+  margin: .625rem 0 0;
   font-size: 1.5rem;
   color: #002C5C;
   font-weight: 500;
 }
 
 .dash-number-i {
-  margin: 10px 0 0;
+  margin: .625rem 0 0;
   font-size: 1.5rem;
   color: #10B981;
   font-weight: 500;
 }
 .dash-number-r {
-  margin: 10px 0 0;
+  margin: .625rem 0 0;
   font-size: 1.5rem;
   color: #EF4444;
   font-weight: 500;
@@ -123,7 +123,7 @@ hr{
 }
 
 .jobs-container {
-  min-height: 260px;
+  min-height: 16.25rem;
 }
 
 .empty-state {
