@@ -122,46 +122,39 @@ hr{
   color: white;
 }
 
-
 .jobs-container {
   min-height: 260px;
 }
 
 .empty-state {
-  height: 260px;
-  border: 1px dashed var(--border);
-  border-radius: 14px;
+  height: 25rem;
+  border-radius: .5rem;
   display: grid;
   place-items: center;
-  padding: 18px;
-  background: #f8fafc;
+  padding: 3.75rem 2.5rem;
+  background: white;
 }
 
 .empty-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 999px;
-  background: #e2e8f0;
   display: grid;
   place-items: center;
-  font-size: 22px;
-  margin: 0 auto 10px;
+  margin: 3.1875rem auto 1.25rem;
 }
 
 .empty-title {
   margin: 0;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #002C5C;
 }
 
 .empty-subtitle {
-  margin: 8px 0 0;
-  font-size: 13px;
-  color: var(--muted);
-  max-width: 420px;
+  margin: .25rem 0;
+  font-size: 1rem;
+  color: #64748B;
 }
 
-/* Job Cards */
+
 .job-card {
   background: #ffffff;
   border-radius: .5rem;
@@ -292,11 +285,11 @@ hr{
   }
 
   .job-card {
-    padding: 14px;
+    padding: .875rem;
   }
 
   .icon-btn {
-    padding: 7px 9px;
+    padding: .475rem .525rem;
   }
 
   .btn {
