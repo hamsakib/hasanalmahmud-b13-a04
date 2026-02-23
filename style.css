@@ -243,18 +243,18 @@ hr{
 
 .job-actions {
   display: flex;
-  gap: 10px;
-  margin-top: 14px;
+  gap: .5rem;
+  margin-top: 1.25rem;
   flex-wrap: wrap;
 }
 
 .btn {
-  border: 1px solid var(--border);
-  background: #fff;
-  padding: 9px 12px;
-  border-radius: 10px;
-  font-size: 13px;
-  font-weight: 800;
+  border: 1px;
+  background: white;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+  font-size: .875rem;
+  font-weight: 500;
   cursor: pointer;
   transition: 0.15s ease;
 }
@@ -264,23 +264,21 @@ hr{
 }
 
 .btn-interview {
-  border-color: #10B981;
+  border: 1px solid #10B981;
   color: #10B981;
 }
 
 .btn-rejected {
-  border-color: #fecaca;
+  border: 1px solid #EF4444;
+  color: #EF4444;
 }
 
-/* Selected button states (from your JS class toggles) */
 .active-interview {
-  background: #dcfce7;
-  border-color: #10B981;
+  background: #d6ffe6;
 }
 
 .active-rejected {
   background: #fee2e2;
-  border-color: #ef4444;
 }
 
 /* Responsive */
