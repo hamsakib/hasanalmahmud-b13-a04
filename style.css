@@ -53,20 +53,20 @@ hr{
   margin: 10px 0 0;
   font-size: 1.5rem;
   color: #002C5C;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .dash-number-i {
   margin: 10px 0 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #10B981;
-  font-weight: 900;
+  font-weight: 500;
 }
 .dash-number-r {
   margin: 10px 0 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #EF4444;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .jobs-section{
